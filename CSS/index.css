@@ -1,0 +1,64 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto 0;
+    padding: 1rem 0 0.75rem 0;
+    width: 100%;
+    flex-wrap: wrap;
+    border-top: 4px solid rgb(255, 0, 0);
+  }
+
+  .footer .links {
+    padding: 0.5rem 1rem 1.5rem;
+    white-space: nowrap;
+  }
+
+  .body{
+    margin: 0px;
+  }
+
+  .cover{
+    height: 800px;
+    background-image: url("../img/portada.png");
+    background-size: cover;
+    background-position: center;
+    color: black;
+  }
+
+  .cover-small{
+    height: 250px;
+    background-blend-mode: normal ;
+
+  }
+
+  .card{
+    border:0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 1), 0 2px 4px -1px rgba(0, 0, 0, 0.6);
+    
+  }
+
+  .card-title{
+    min-height: 3rem;
+    font-weight: bold;
+  }
+
+  .card-text{
+    min-height: 8rem;
+    text-align: justify;
+  }
+
+  .acerca{
+    font-family: 'Times New Roman', Times, serif;
+    align-content: center;
+    background-color: rgb(0, 8, 126);
+    color: white;
+    
+  }
+
+  .piepag {
+    background-color: orange;
+    text-align: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+}
